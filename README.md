@@ -21,8 +21,8 @@
     </header>
 
     <section id="home">
-        <h1>Bienvenue sur mon Portfolio</h1>
-        <p>Découvrez mes services et projets</p>
+        <h1>Bienvenue sur notre Portfolio</h1>
+        <p>Découvrez nos services et projets</p>
     </section>
 
     <section id="services">
