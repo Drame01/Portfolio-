@@ -1,4 +1,5 @@
 # Portfolio-
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,8 +22,8 @@
     </header>
 
     <section id="home">
-        <h1>Bienvenue sur notre Portfolio</h1>
-        <p>Découvrez nos services et projets</p>
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Découvrez mes services et projets</p>
     </section>
 
     <section id="services">
@@ -93,6 +94,7 @@
     <script src="scripts.js"></script>
 </body>
 </html>
+styles.css
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -166,6 +168,7 @@ form button {
     border: none;
     cursor: pointer;
 }
+scripts.js
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     
@@ -174,6 +177,4 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     const message = document.getElementById('message').value;
     
     alert(`Merci ${name}, nous avons bien reçu votre message !`);
-    
-    // Vous pouvez ajouter du code ici pour envoyer le formulaire via AJAX ou une autre méthode
 });
